@@ -39,12 +39,76 @@ nav a{
 }
 .header{
     background-color: #FFF8F3;
+    background-image: url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner .profile-pic{
     width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    margin-bottom: 0;
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner-title{
+font-size: 85px;
+font-weight:700;
+margin-top: 5px;
+}
+.about{
+    padding: 130px;
+    margin-top: 130px;
+    background-color: #FFF8F3;
+}
+.section-title{
+    color: #181818;
+text-align: center;
+
+font-size: 35px;
+
+font-weight: 700;
+
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.about-inf{
+    text-align:center;
+}
+#wid{
+    padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+}
+.skill{
+    
+width: 200px;
+height: 250px;
+margin: 0 20px 0 0;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+padding: 30px;
+gap: 24px;
 }
